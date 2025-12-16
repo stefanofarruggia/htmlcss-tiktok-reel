@@ -51,10 +51,26 @@ header h2 {
 }
 .per-te {
 	color: white;
-	font-weight: 500;
-
+	font-weight: bold;
 }
-
+#sfera-rossa {
+	position: absolute;
+	background-color: rgba(250, 0, 50, 0.461);
+	width: 7px;
+	height: 7px;
+	border-radius: 50%;
+	right:220px;
+	top:1px;
+	margin-top: 8px;
+}
+#underscore {
+	background-color: white;
+	position: absolute;
+	height: 2px;
+	width: 25px;
+	right: 180px;
+	margin-top: 35px;
+}
 
 /* Footer */
 
@@ -114,6 +130,18 @@ footer {
 .home {
 	color: white;
 }
+#numbers {
+	position: absolute;
+	color: white;
+	background-color: rgb(244, 56, 103) ;
+	width: 20px;
+	height: 12px;
+	font-size: x-small;
+	text-align: center;
+	border-radius: 5px;
+	bottom: 55px;
+	margin-left: 10px;
+}
 
 
 /* Sidebar */
@@ -144,9 +172,15 @@ footer {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	
-	
-
+}
+#add-button {
+	background-color: rgb(244, 56, 103);
+	position: absolute;
+	text-align: center;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	margin-top: 30px;
 }
 
 .sidebar img {
