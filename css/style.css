@@ -125,7 +125,34 @@ footer {
 	width: 40px;
 	text-align: center;
 	border-radius: 20%;
+	z-index: 1;
+	height: 32px;
 }
+
+ #azzurro {
+	background-color: aqua;
+	position: absolute;
+	z-index: 0;
+	display: flex;
+	align-items: center;
+	width: 20px;
+	height: 32px;
+	border-radius: 20%;
+	left: 208px;
+ }
+
+ #lilla {
+	background-color:fuchsia;
+	position: absolute;
+	z-index: 0;
+	display: flex;
+	align-items: center;
+	width: 20px;
+	height: 32px;
+	border-radius: 20%;
+	left: 234px;
+
+ }
 
 .home {
 	color: white;
